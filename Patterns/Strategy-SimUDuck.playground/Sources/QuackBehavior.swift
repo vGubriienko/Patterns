@@ -9,32 +9,38 @@
 import Foundation
 
 
-protocol QuackBehavior {
+public protocol QuackBehavior {
     func quack()
 }
 
 
-class Quack: QuackBehavior {
+public class Quack: QuackBehavior {
     
-    func quack() {
+    public init() {}
+    
+    public func quack() {
         print("Quack")
     }
     
 }
 
 
-class MuteQuack: QuackBehavior {
+public class MuteQuack: QuackBehavior {
     
-    func quack() {
+    public init() {}
+    
+    public func quack() {
         print("<< Silence >>")
     }
     
 }
 
 
-class Squeak: QuackBehavior {
+public class Squeak: QuackBehavior {
     
-    func quack() {
+    public init() {}
+    
+    public func quack() {
         print("Squeak")
     }
     

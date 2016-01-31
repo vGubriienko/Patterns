@@ -14,21 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-
-        testChapter1()
-        
         return true
-    }
-
-    private func testChapter1() {
-        let mallard = MallardDuck()
-        mallard.performQuack()
-        mallard.performFly()
-        
-        let model = ModelDuck()
-        model.performFly()
-        model.flyBehavior = FlyRocketPowered()
-        model.performFly()
     }
     
 }

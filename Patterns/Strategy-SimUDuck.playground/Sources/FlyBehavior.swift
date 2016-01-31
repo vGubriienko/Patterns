@@ -9,32 +9,38 @@
 import Foundation
 
 
-protocol FlyBehavior {
+public protocol FlyBehavior {
     func fly()
 }
 
 
-class FlyWithWings: FlyBehavior {
+public class FlyWithWings: FlyBehavior {
     
-    func fly() {
+    public init() {}
+    
+    public func fly() {
         print("I'm flying!!")
     }
     
 }
 
 
-class FlyNoWay: FlyBehavior {
+public class FlyNoWay: FlyBehavior {
+
+    public init() {}
     
-    func fly() {
+    public func fly() {
         print("I can't fly")
     }
     
 }
 
 
-class FlyRocketPowered: FlyBehavior {
+public class FlyRocketPowered: FlyBehavior {
     
-    func fly() {
+    public init() {}
+    
+    public func fly() {
         print("I'm flying with a rocket!")
     }
     

@@ -9,7 +9,7 @@
 import Foundation
 
 
-protocol Duck {
+public protocol Duck {
     
     var flyBehavior: FlyBehavior { get set }
     var quackBehavior: QuackBehavior { get set }
@@ -23,7 +23,7 @@ protocol Duck {
 }
 
 
-extension Duck {
+public extension Duck {
     
     func performFly() {
         flyBehavior.fly()
@@ -40,34 +40,34 @@ extension Duck {
 }
 
 
-class MallardDuck: Duck {
+public class MallardDuck: Duck {
     
-    var flyBehavior: FlyBehavior
-    var quackBehavior: QuackBehavior
+    public var flyBehavior: FlyBehavior
+    public var quackBehavior: QuackBehavior
     
-    init() {
+    public init() {
         flyBehavior = FlyWithWings()
         quackBehavior = Quack()
     }
     
-    func display() {
+    public func display() {
         print("I'm a real mallard duck")
     }
     
 }
 
 
-class ModelDuck: Duck {
+public class ModelDuck: Duck {
     
-    var flyBehavior: FlyBehavior
-    var quackBehavior: QuackBehavior
+    public var flyBehavior: FlyBehavior
+    public var quackBehavior: QuackBehavior
     
-    init() {
+    public init() {
         flyBehavior = FlyNoWay()
         quackBehavior = Quack()
     }
     
-    func display() {
+    public func display() {
         print("I'm a model duck")
     }
     

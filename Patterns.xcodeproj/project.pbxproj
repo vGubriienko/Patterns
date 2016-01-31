@@ -14,9 +14,6 @@
 		213BBBD41C5C113C00487F0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 213BBBD21C5C113C00487F0B /* LaunchScreen.storyboard */; };
 		213BBBDF1C5C113C00487F0B /* PatternsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213BBBDE1C5C113C00487F0B /* PatternsTests.swift */; };
 		213BBBEA1C5C113C00487F0B /* PatternsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213BBBE91C5C113C00487F0B /* PatternsUITests.swift */; };
-		213BBBF91C5C118500487F0B /* Duck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213BBBF81C5C118500487F0B /* Duck.swift */; };
-		213BBBFB1C5C11AC00487F0B /* FlyBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213BBBFA1C5C11AC00487F0B /* FlyBehavior.swift */; };
-		213BBBFD1C5C11BE00487F0B /* QuackBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213BBBFC1C5C11BE00487F0B /* QuackBehavior.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,9 +47,8 @@
 		213BBBE51C5C113C00487F0B /* PatternsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PatternsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		213BBBE91C5C113C00487F0B /* PatternsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternsUITests.swift; sourceTree = "<group>"; };
 		213BBBEB1C5C113C00487F0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		213BBBF81C5C118500487F0B /* Duck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Duck.swift; sourceTree = "<group>"; };
-		213BBBFA1C5C11AC00487F0B /* FlyBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlyBehavior.swift; sourceTree = "<group>"; };
-		213BBBFC1C5C11BE00487F0B /* QuackBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuackBehavior.swift; sourceTree = "<group>"; };
+		21E830541C5D4274000868D3 /* Strategy-SimUDuck.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Strategy-SimUDuck.playground"; sourceTree = "<group>"; };
+		21E830551C5D4551000868D3 /* Observer-WeatherStation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Observer-WeatherStation.playground"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +99,8 @@
 		213BBBC81C5C113C00487F0B /* Patterns */ = {
 			isa = PBXGroup;
 			children = (
-				213BBBF71C5C114700487F0B /* Chapter 1 */,
+				21E830541C5D4274000868D3 /* Strategy-SimUDuck.playground */,
+				21E830551C5D4551000868D3 /* Observer-WeatherStation.playground */,
 				213BBBC91C5C113C00487F0B /* AppDelegate.swift */,
 				213BBBCB1C5C113C00487F0B /* ViewController.swift */,
 				213BBBCD1C5C113C00487F0B /* Main.storyboard */,
@@ -130,16 +127,6 @@
 				213BBBEB1C5C113C00487F0B /* Info.plist */,
 			);
 			path = PatternsUITests;
-			sourceTree = "<group>";
-		};
-		213BBBF71C5C114700487F0B /* Chapter 1 */ = {
-			isa = PBXGroup;
-			children = (
-				213BBBF81C5C118500487F0B /* Duck.swift */,
-				213BBBFA1C5C11AC00487F0B /* FlyBehavior.swift */,
-				213BBBFC1C5C11BE00487F0B /* QuackBehavior.swift */,
-			);
-			name = "Chapter 1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,10 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				213BBBCC1C5C113C00487F0B /* ViewController.swift in Sources */,
-				213BBBFD1C5C11BE00487F0B /* QuackBehavior.swift in Sources */,
 				213BBBCA1C5C113C00487F0B /* AppDelegate.swift in Sources */,
-				213BBBF91C5C118500487F0B /* Duck.swift in Sources */,
-				213BBBFB1C5C11AC00487F0B /* FlyBehavior.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
