@@ -47,6 +47,7 @@
 		213BBBE51C5C113C00487F0B /* PatternsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PatternsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		213BBBE91C5C113C00487F0B /* PatternsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternsUITests.swift; sourceTree = "<group>"; };
 		213BBBEB1C5C113C00487F0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21D368F31C5E6C610057C749 /* Decorator-Starbuzz.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Decorator-Starbuzz.playground"; sourceTree = "<group>"; };
 		21E830541C5D4274000868D3 /* Strategy-SimUDuck.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Strategy-SimUDuck.playground"; sourceTree = "<group>"; };
 		21E830551C5D4551000868D3 /* Observer-WeatherStation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Observer-WeatherStation.playground"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,6 +102,7 @@
 			children = (
 				21E830541C5D4274000868D3 /* Strategy-SimUDuck.playground */,
 				21E830551C5D4551000868D3 /* Observer-WeatherStation.playground */,
+				21D368F31C5E6C610057C749 /* Decorator-Starbuzz.playground */,
 				213BBBC91C5C113C00487F0B /* AppDelegate.swift */,
 				213BBBCB1C5C113C00487F0B /* ViewController.swift */,
 				213BBBCD1C5C113C00487F0B /* Main.storyboard */,
