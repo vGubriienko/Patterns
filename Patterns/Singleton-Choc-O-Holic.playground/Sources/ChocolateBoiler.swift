@@ -17,6 +17,7 @@ public class ChocolateBoiler {
     }
     
     private init() {
+        sleep(1) // To test that swift global let is really thread safe
         empty = true
         boiled = false
         print("ChocolateBoiler Initialized")
