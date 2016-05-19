@@ -34,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21180B771CEE224700F0DD3E /* Command-Home-Automation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Command-Home-Automation.playground"; sourceTree = "<group>"; };
 		213BBBC61C5C113C00487F0B /* Patterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Patterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		213BBBC91C5C113C00487F0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		213BBBCB1C5C113C00487F0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -107,6 +108,7 @@
 				21D368F31C5E6C610057C749 /* Decorator-Starbuzz.playground */,
 				21EBC4241C5FE9840052F5C7 /* AbstractFactory-PizzaStore.playground */,
 				21F8FE5F1C6BDDB10018451E /* Singleton-Choc-O-Holic.playground */,
+				21180B771CEE224700F0DD3E /* Command-Home-Automation.playground */,
 				213BBBC91C5C113C00487F0B /* AppDelegate.swift */,
 				213BBBCB1C5C113C00487F0B /* ViewController.swift */,
 				213BBBCD1C5C113C00487F0B /* Main.storyboard */,

@@ -11,7 +11,7 @@ public class WeatherData: Observable {
     public var changed = false
     
     public init() {
-        NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: "updateValues", userInfo: nil, repeats: true)
+        NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: #selector(updateValues), userInfo: nil, repeats: true)
     }
     
     public func measurementsChanged() {

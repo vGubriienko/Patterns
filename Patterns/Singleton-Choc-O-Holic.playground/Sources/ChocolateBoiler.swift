@@ -48,7 +48,7 @@ public class ChocolateBoiler {
             print("[\(cycleCounter)]    3: Drain boiled chocolate and milk")
             empty = true
             boiled = false
-            cycleCounter++
+            cycleCounter += 1
         }
         lock.unlock()
     }

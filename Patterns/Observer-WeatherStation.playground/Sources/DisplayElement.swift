@@ -78,7 +78,7 @@ public class StatisticsDisplay: DisplayElement, Observer {
             
             avgTemperature = avgTemperature + Float(1.0) / (Float(iterationIndex) + Float(1.0)) * (temperature - avgTemperature)
             
-            iterationIndex++
+            iterationIndex += 1
             
             display()
         }
